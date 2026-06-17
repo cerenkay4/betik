@@ -1,6 +1,53 @@
-import random #ceren
-r=random.random()
-if r<0.5:
-print('yazı')
-else:
-print('tura')
+A=[[{
+    'isim':'ceren',
+    'yas':'19',
+    'cinsiyet':'kadın'
+},
+    {
+        'isim':'sude',
+        'yas':'18',
+        'cinsiyet':'kadın'
+    }],
+    [{
+        'isim':'anıl',
+        'yas':'22',
+        'cinsiyet':'erkek'
+    },
+        {
+            'isim':'emre',
+            'yas':'19',
+            'cinsiyet':'erkek'
+    }],
+    [{
+        'isim':'duru',
+        'yas':'17',
+        'cinsiyet':'kadın'
+    },
+        {
+        'isim':'can',
+        'yas':'21',
+        'cinsiyet':'erkek'
+    }],
+    [{
+        'isim':'irem',
+        'yas':'20',
+        'cinsiyet':'kadın'
+    },
+        {
+            'isim':'benan',
+            'yas':'19',
+            'cinsiyet':'kadın'
+    }]
+]
+for i in A:
+    for j in i:
+        #try:
+            #print(j)
+            print(j['isim'])
+        #except:
+        #pass
+    
+    
+for j in A:
+    for k in A:
+        print(A[i][j][k])
